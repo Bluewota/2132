@@ -1,17 +1,48 @@
-[1]Правила для текстовых и голосовых чатов:
-[1.1] Разрешено засорение отдельного чата
-[1.2] Разрешен чрезмерный мат.
-[1.3] Разрешен ФЛУД В ТОМ ЖЕ ЧАТЕ ЧТО И 1.1
-[1.4] РАЗРЕШЕН КАПСЛОК
-[2.1] Разрешены какие-либо обсуждения действий администрации в чате.
- Вы можете что-либо обсуждать/высказывать своё мнение, не стараясь делать это объективно, но если это будет скатываться в обоснованную дискредитацию администрации - вы получите БАН
-[2.2] Разрешено разжигать межнациональную рознь, оскорблять любые меньшинства, субкультуры и т.д.
-[2.3] Разрешены программы, искажающие ваш голос.
-[2.4] Разрешены оскорбления участников сервера.
-[2.5] Разрешены лёгкие оскорбления.
-[2.6] Разрешены оскорбления средней тяжести.
-[2.7] Разрешены тяжкие оскорбления.
-[2.8] Разрешены любые провокации.
-[2.9] Разрешено неадекватное поведение любого характера.
-Разрешена реклама, но платите деньги блядь!
-А так же помимо этих максимально жестоких правил, можно использовать ПИДОР, ЖИД, ДАУН, НЕГР, И ВСЕ ПРОИЗВОДНЫЕ!!!
+{
+  "username": "Webhook",
+  "avatar_url": "https://i.imgur.com/4M34hi2.png",
+  "content": "Text message. Up to 2000 characters.",
+  "embeds": [
+    {
+      "author": {
+        "name": "Birdie♫",
+        "url": "https://www.reddit.com/r/cats/",
+        "icon_url": "https://i.imgur.com/R66g1Pe.jpg"
+      },
+      "title": "Title",
+      "url": "https://google.com/",
+      "description": "Text message. You can use Markdown here. *Italic* **bold** __underline__ ~~strikeout~~ [hyperlink](https://google.com) `code`",
+      "color": 15258703,
+      "fields": [
+        {
+          "name": "Text",
+          "value": "More text",
+          "inline": true
+        },
+        {
+          "name": "Even more text",
+          "value": "Yup",
+          "inline": true
+        },
+        {
+          "name": "Use `\"inline\": true` parameter, if you want to display fields in the same line.",
+          "value": "okay..."
+        },
+        {
+          "name": "Thanks!",
+          "value": "You're welcome :wink:"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/4-Nature-Wallpapers-2014-1_ukaavUI.jpg"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/A_picture_from_China_every_day_108.jpg"
+      },
+      "footer": {
+        "text": "Woah! So cool! :smirk:",
+        "icon_url": "https://i.imgur.com/fKL31aD.jpg"
+      }
+    }
+  ]
+}
